@@ -19,12 +19,3 @@ development:
 test:
   <<: *default
   database: db/test.sqlite3
-
-# This is a configuration just for development
-production:
-  adapter: mysql2
-  database: rails_sample
-  host: localhost
-  username: root
-  password: ""
-  encoding: utf8
